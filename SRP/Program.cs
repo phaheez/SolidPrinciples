@@ -11,8 +11,8 @@ namespace SRP
             report.AddEntry(new WorkReportEntry { ProjectCode = "987Fc", ProjectName = "Project2", SpentHours = 3 });
 
             var scheduler = new SchedulerService();
-            scheduler.AddEntry(new ScheduleTask { TaskId = 1, Content = "Do something now.", ExecuteOn = DateTime.Now.AddDays(5) });
-            scheduler.AddEntry(new ScheduleTask { TaskId = 2, Content = "Don't forget to...", ExecuteOn = DateTime.Now.AddDays(2) });
+            scheduler.AddEntry(new ScheduleTask { TaskId = 1, Content = "Upload to database", ExecuteOn = DateTime.Now.AddDays(5) });
+            scheduler.AddEntry(new ScheduleTask { TaskId = 2, Content = "Backup database schema", ExecuteOn = DateTime.Now.AddDays(2) });
 
             Console.WriteLine(report.ToString());
             Console.WriteLine(scheduler.ToString());
