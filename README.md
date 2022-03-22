@@ -1,6 +1,8 @@
 # SOLID Principles
 SOLID Principles code sample using C# .NET 5
 
+  https://code-maze.com/solid-principles/
+
 ###  Single Responsibility Principle:
 - It means that everything in a class should be related to a single purpose
 - There can be many members in a class as long as they are related to a single responsibility
